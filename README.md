@@ -9,7 +9,3 @@ Add this extension to your TYPO3 setup. Install using composer: `composer req ja
 Add the TypoScript to your site extensions setup:
 
 `@import 'EXT:cmframe/Configuration/TypoScript/setup.typoscript'`
-
-Add the PageTS (for adding the element to the New Content Element Wizard):
-
-`@import 'EXT:cmframe/Configuration/PageTs/PageTs.tsconfig'`

@@ -4,7 +4,7 @@ tt_content {
         templateName = Consentframe
         templateRootPaths.0 = EXT:cmframe/Resources/Private/Templates
 
-        dataProcessing.1567071612 = Jaiprucl\cmframe\DataProcessing\ConsentProcessor
+        dataProcessing.1567071612 = HDNET\cmframe\DataProcessing\ConsentProcessor
         dataProcessing.1567071612 {
             field = cmframe_code
             as = cmframe_code_prepared

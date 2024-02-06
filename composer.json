@@ -10,11 +10,10 @@
 			"role": "developer"
 		}
 	],
-	"homepage": "https://extensions.typo3.org/extension/tea/",
+	"homepage": "https://github.com/Jaiprucl/cmframe",
 	"support": {
-		"issues": "https://github.com/TYPO3-Documentation/tea/issues",
-		"source": "https://github.com/TYPO3-Documentation/tea",
-		"docs": "https://docs.typo3.org/p/ttn/tea/main/en-us/"
+		"issues": "https://github.com/Jaiprucl/cmframe/issues",
+		"source": "https://github.com/Jaiprucl/cmframe"
 	},
 	"require": {
 		"ext-dom": "*",
@@ -25,7 +24,7 @@
 		"typo3/cms-fluid": "^10.4.0 || ^11.5.2 || ^12.0@dev",
 		"typo3/cms-frontend": "^10.4.0 || ^11.5.2 || ^12.0@dev"
 	},
-	"prefer-stable": true,
+	"prefer-stable": false,
 	"autoload": {
 		"psr-4": {
 			"HDNET\\CMFrame\\": "Classes/"

@@ -1,0 +1,11 @@
+mod.wizards.newContentElement {
+    wizardItems {
+        common.elements.cmframe {
+            title = LLL:EXT:cmframe/Resources/Private/Language/locallang_db.xlf:tt_content.CType
+            description = LLL:EXT:cmframe/Resources/Private/Language/locallang_db.xlf:tt_content.wizard.description
+            tt_content_defValues.CType = cmframe
+            iconIdentifier = content-cmframe
+        }
+        common.show := addToList(cmframe)
+    }
+}

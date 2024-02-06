@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages">
+        <header>
+            <description>Language labels for EXT:cmframe</description>
+            <authorName>Christopher Olhöft</authorName>
+            <authorEmail>christopher.olhoeft@hdnet.de</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="tt_content.CType" resname="tt_content.CType">
+                <source>Consent iFrame</source>
+            </trans-unit>
+            <trans-unit id="tt_content.wizard.description" resname="tt_content.wizard.description">
+                <source>Element to integrate Consent for iFrames via Consentmanager.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

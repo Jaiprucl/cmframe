@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:example/Resources/Private/Language/Backend.xlf:settings.registration.title</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.vendor>
+                        <TCEforms>
+                            <label>LLL:EXT:cmframe/Resources/Private/Language/locallang.xml:flexform.cmframe.vendor</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.vendor>
+                    <settings.height>
+                        <TCEforms>
+                            <label>LLL:EXT:cmframe/Resources/Private/Language/locallang.xml:flexform.cmframe.height</label>
+                            <config type="array">
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </settings.height>
+                    <settings.width>
+                        <TCEforms>
+                            <label>LLL:EXT:cmframe/Resources/Private/Language/locallang.xml:flexform.cmframe.width</label>
+                            <config type="array">
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </settings.width>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

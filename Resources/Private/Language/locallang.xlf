@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages">
+        <header>
+            <description>Language labels for EXT:cmframe</description>
+            <authorName>Christopher Olhöft</authorName>
+            <authorEmail>christopher.olhoeft@hdnet.de</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="flexform.cmframe.vendor" resname="flexform.cmframe.vendor">
+				<source>Vendor ID</source>
+            </trans-unit>
+            <trans-unit id="flexform.cmframe.height" resname="flexform.cmframe.height">
+				<source>iFrame height</source>
+			</trans-unit>
+			<trans-unit id="flexform.cmframe.width" resname="flexform.cmframe.width">
+				<source>iFrame width</source>
+			</trans-unit>
+            <trans-unit id="tt_content.wizard.description" resname="tt_content.wizard.description">
+                <source>Element to integrate Consent for iFrames via Consentmanager.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

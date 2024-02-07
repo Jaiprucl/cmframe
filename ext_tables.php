@@ -25,3 +25,7 @@ $iconRegistry->registerIcon(
         'source' => 'EXT:cmframe/Resources/Public/Icons/content-cmframe.svg',
     ]
 );
+
+$iconRegistry->registerIcon('extension-cmframe', \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class, [
+    'source' => 'EXT:cmframe/Resources/Public/Icons/Extension.svg',
+]);

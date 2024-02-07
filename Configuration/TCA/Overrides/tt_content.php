@@ -44,13 +44,4 @@ call_user_func(static function () {
             ],
         ]
     ];
-
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-    // 'list_type' does not apply here
-        '*',
-        // FlexForm configuration schema file
-        'FILE:EXT:cmframe/Configuration/FlexForms/Consent.xml',
-        // ctype
-        'cmframe'
-    );
 });

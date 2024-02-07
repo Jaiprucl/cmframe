@@ -5,7 +5,3 @@ This extension creates a TYPO3 content element that adapts an iframe snippet so 
 
 ## Installation
 Add this extension to your TYPO3 setup. Install using composer: `composer req jaiprucl/cmframe`.
-
-Add the TypoScript to your site extensions setup:
-
-`@import 'EXT:cmframe/Configuration/TypoScript/setup.typoscript'`

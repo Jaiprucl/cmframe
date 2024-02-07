@@ -26,7 +26,7 @@ class ConsentPreviewRenderer implements PageLayoutViewDrawItemHookInterface
     ) {
         if ($row['CType'] === 'cmframe') {
             if ($row['bodytext']) {
-                $bodytext = "<strong>Content iFrame</strong><br/>";
+                $bodytext = "<strong>Consent iFrame</strong><br/>";
                 $bodytext .= GeneralUtility::fixed_lgd_cs($row['bodytext'], 1000);
                 $itemContent .= $parentObject->linkEditContent(nl2br($bodytext), $row) . '<br />';
             }
